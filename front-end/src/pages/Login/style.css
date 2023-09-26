@@ -1,0 +1,79 @@
+#retangulo {
+    background-color: #B51D44;
+    /* position: absolute; */
+    position: fixed;
+    width: 75%;
+    height: 1273.57px;
+    top: -364px;
+    left: -300px;
+    transform: rotate(14deg);
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+#login {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#loginform {
+    height: 100%;
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+#logininfo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#linkforget {
+    width: 100%;
+    text-decoration: none;
+    color: #A6A0A0;
+    margin: 25px;
+}
+
+.input {
+    width:50%;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 25px;
+}
+
+#logodiv {
+    margin: 25px;
+}
+
+#buttonlogin {
+    width: 50%;
+    background-color: #B51D44;
+    border: none;
+    border-radius: 5px;
+    margin: 25px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#linklogin {
+    width: 100%;
+    text-decoration: NONE;
+    color: #fff;
+
+}
+
+#retangulo {
+    background-image: url(../../assets/img/undraw_login_re_4vu2\ 1.png);
+}
